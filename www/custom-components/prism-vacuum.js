@@ -10,7 +10,7 @@ class PrismVacuumCard extends HTMLElement {
     static getStubConfig() {
       return { 
         entity: "vacuum.example", 
-        name: "Staubsauger"
+        name: "Vacuum"
       }
     }
 
@@ -37,49 +37,49 @@ class PrismVacuumCard extends HTMLElement {
           {
             name: "",
             type: "expandable",
-            title: "Wasser-Steuerung",
+            title: "Water Control",
             schema: [
               {
                 name: "water_entity",
                 selector: { entity: { domain: ["select", "number"] } },
-                description: "Entity für Wasserstand/Mop-Modus (z.B. select.vacuum_water_box_mode oder number.vacuum_water_level)"
+                description: "Entity for water level/mop mode (e.g. select.vacuum_water_box_mode or number.vacuum_water_level)"
               },
               {
                 name: "water_levels",
                 selector: { text: {} },
-                description: "Wasser-Stufen kommagetrennt (z.B. 'Off,Low,Medium,High' oder '1,2,3'). Leer = automatisch aus Entity"
+                description: "Water levels comma-separated (e.g. 'Off,Low,Medium,High' or '1,2,3'). Empty = automatically from entity"
               }
             ]
           },
           {
             name: "",
             type: "expandable",
-            title: "Szenen-Modus",
+            title: "Scene Mode",
             schema: [
               {
                 name: "use_scenes",
                 selector: { boolean: {} },
-                description: "Aktiviert die Szenen-Auswahl. Der Play-Button startet dann die ausgewählte Szene statt dem normalen Start-Befehl."
+                description: "Enables scene selection. The play button will then start the selected scene instead of the normal start command."
               },
               {
                 name: "scene_1",
                 selector: { entity: { domain: "scene" } },
-                description: "Erste Szene (z.B. 'Alle Räume reinigen')"
+                description: "First scene (e.g. 'Clean all rooms')"
               },
               {
                 name: "scene_1_name",
                 selector: { text: {} },
-                description: "Anzeigename für Szene 1 (optional, z.B. 'Alles')"
+                description: "Display name for scene 1 (optional, e.g. 'All')"
               },
               {
                 name: "scene_2",
                 selector: { entity: { domain: "scene" } },
-                description: "Zweite Szene (z.B. 'Nur Küche reinigen')"
+                description: "Second scene (e.g. 'Clean kitchen only')"
               },
               {
                 name: "scene_2_name",
                 selector: { text: {} },
-                description: "Anzeigename für Szene 2 (optional, z.B. 'Küche')"
+                description: "Display name for scene 2 (optional, e.g. 'Kitchen')"
               }
             ]
           }

@@ -38,32 +38,32 @@ class PrismVacuumSwitchbotCard extends HTMLElement {
           {
             name: "",
             type: "expandable",
-            title: "Szenen-Modus",
+            title: "Scene Mode",
             schema: [
               {
                 name: "use_scenes",
                 selector: { boolean: {} },
-                description: "Aktiviert die Szenen-Auswahl. Der Play-Button startet dann die ausgewählte Szene statt dem normalen Start-Befehl."
+                description: "Enables scene selection. The play button will then start the selected scene instead of the normal start command."
               },
               {
                 name: "scene_1",
                 selector: { entity: { domain: "scene" } },
-                description: "Erste Szene (z.B. 'Alle Räume reinigen')"
+                description: "First scene (e.g. 'Clean all rooms')"
               },
               {
                 name: "scene_1_name",
                 selector: { text: {} },
-                description: "Anzeigename für Szene 1 (optional, z.B. 'Alles')"
+                description: "Display name for scene 1 (optional, e.g. 'All')"
               },
               {
                 name: "scene_2",
                 selector: { entity: { domain: "scene" } },
-                description: "Zweite Szene (z.B. 'Nur Küche reinigen')"
+                description: "Second scene (e.g. 'Clean kitchen only')"
               },
               {
                 name: "scene_2_name",
                 selector: { text: {} },
-                description: "Anzeigename für Szene 2 (optional, z.B. 'Küche')"
+                description: "Display name for scene 2 (optional, e.g. 'Kitchen')"
               }
             ]
           }
