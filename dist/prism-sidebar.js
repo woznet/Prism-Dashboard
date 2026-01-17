@@ -693,8 +693,8 @@ class PrismSidebarCard extends HTMLElement {
                         <div style="font-size: 12px; margin-bottom: 8px;">Forecast nicht verfügbar</div>
                         <div style="font-size: 10px; color: rgba(255,255,255,0.3);">
                             ${this.weatherEntity}<br>
-                            <small>Bitte verwende eine Weather-Integration, die Forecast unterstützt<br>
-                            (z.B. Open-Meteo, Met.no, oder aktualisiere OpenWeatherMap)</small>
+                            <small>Please use a weather integration that supports forecasts<br>
+                            (e.g. Open-Meteo, Met.no, or update OpenWeatherMap)</small>
                         </div>
                     </div>
                 `;
