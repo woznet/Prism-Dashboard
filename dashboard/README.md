@@ -141,4 +141,4 @@ Change these anchor definitions to adjust the appearance globally.
 
 For questions or problems:
 - See the [Main README](../README.md) for general information
-- Open a [GitHub Issue](https://github.com/BangerTech/Prism-Dashboard/issues) for bugs or feature requests
+- Open a [GitHub Issue](https://github.com/Woznet/Prism-Dashboard/issues) for bugs or feature requests

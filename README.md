@@ -1,4 +1,4 @@
-## <img src="https://raw.githubusercontent.com/BangerTech/Prism-Dashboard/main/custom-components/images/prism-logo.png" alt="Prism" width="80" align="center"> Prism Dashboard
+## <img src="https://raw.githubusercontent.com/Woznet/Prism-Dashboard/main/custom-components/images/prism-logo.png" alt="Prism" width="80" align="center"> Prism Dashboard
 
 A modern, glassmorphism-inspired dashboard and custom-cards for Home Assistant.
 
@@ -11,7 +11,7 @@ A modern, glassmorphism-inspired dashboard and custom-cards for Home Assistant.
 
 <p align="center">
   <strong>Custom Cards</strong><br>
-  <img src="https://raw.githubusercontent.com/BangerTech/Prism-Dashboard/main/custom-components/images/prism-dashboard-new2.png" alt="Prism Dashboard - Custom Cards" width="85%">
+  <img src="https://raw.githubusercontent.com/Woznet/Prism-Dashboard/main/custom-components/images/prism-dashboard-new2.png" alt="Prism Dashboard - Custom Cards" width="85%">
 </p>
 
 ---
@@ -109,7 +109,7 @@ For this dashboard to work, the following frontend integrations must be installe
 1. Make sure [HACS](https://hacs.xyz) is installed.
 2. Go to **HACS → Frontend** (three-dot menu top right) → **Custom Repositories**
 3. Add this repository:
-   - **Repository:** `https://github.com/BangerTech/Prism-Dashboard`
+   - **Repository:** `https://github.com/Woznet/Prism-Dashboard`
    - **Type:** `Dashboard`
 4. Search for "Prism Dashboard" and click **"Download"**
 5. Restart Home Assistant

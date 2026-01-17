@@ -1,4 +1,4 @@
-## <img src="https://raw.githubusercontent.com/BangerTech/Prism-Dashboard/main/custom-components/images/prism-logo.png" alt="Prism" width="80" align="center"> Prism Dashboard
+## <img src="https://raw.githubusercontent.com/Woznet/Prism-Dashboard/main/custom-components/images/prism-logo.png" alt="Prism" width="80" align="center"> Prism Dashboard
 
 A modern, glassmorphism-inspired dashboard and custom-cards for Home Assistant.
 
@@ -45,4 +45,4 @@ After installing via HACS:
 
 All cards can be used in the visual dashboard editor. Simply search for "prism" in the card browser.
 
-For more information, see the [README.md](https://github.com/BangerTech/Prism-Dashboard).
+For more information, see the [README.md](https://github.com/Woznet/Prism-Dashboard).

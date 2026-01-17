@@ -5,9 +5,9 @@
   "main": "dist/prism-dashboard.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BangerTech/Prism-Dashboard.git"
+    "url": "https://github.com/Woznet/Prism-Dashboard.git"
   },
-  "author": "BangerTech",
+  "author": "Woznet",
   "license": "MIT",
   "scripts": {
     "build": "node scripts/build.js"
