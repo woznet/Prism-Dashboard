@@ -402,7 +402,7 @@ class PrismVacuumCard extends HTMLElement {
              <div class="controls-header">
                  <div class="controls-label">
                      <ha-icon icon="mdi:fan" style="width: 14px; height: 14px; color: rgba(255,255,255,0.4);"></ha-icon>
-                     <span>Saugleistung</span>
+                     <span>Fan Speed</span>
                  </div>
                  
                  <div id="home-btn" class="home-btn ${isReturning || isDocked ? 'active' : 'inactive'}">
