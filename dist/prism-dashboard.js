@@ -2,8 +2,8 @@
  * Prism Dashboard - Custom Cards Collection
  * https://github.com/BangerTech/Prism-Dashboard
  * 
- * Version: 1.5.9
- * Build Date: 2026-04-22T08:35:17.205Z
+ * Version: 1.9.2
+ * Build Date: 2026-05-12T13:09:47.961Z
  * 
  * This file contains all Prism custom cards bundled together.
  * Just add this single file as a resource in Lovelace:
@@ -11,7 +11,7 @@
  */
 
 console.info(
-  '%c PRISM-DASHBOARD %c v1.5.9 ',
+  '%c PRISM-DASHBOARD %c v1.9.2 ',
   'color: white; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-weight: bold; padding: 4px 8px; border-radius: 4px 0 0 4px;',
   'color: #667eea; background: #e8e8e8; font-weight: bold; padding: 4px 8px; border-radius: 0 4px 4px 0;'
 );
@@ -7646,7 +7646,7 @@ class PrismCalendarCard extends HTMLElement {
     if (this.config && this.config.entity_1) {
       // Fetch calendar events every 60 seconds or on first load
       const now = Date.now();
-      if (now - this._lastFetch > 60000 || this._events.length === 0) {
+      if (now - this._lastFetch > 60000) {
         this._fetchCalendarEvents();
       } else {
         this.render();
@@ -8195,7 +8195,7 @@ class PrismCalendarLightCard extends HTMLElement {
     if (this.config && this.config.entity_1) {
       // Fetch calendar events every 60 seconds or on first load
       const now = Date.now();
-      if (now - this._lastFetch > 60000 || this._events.length === 0) {
+      if (now - this._lastFetch > 60000) {
         this._fetchCalendarEvents();
       } else {
         this.render();
@@ -33296,8 +33296,8 @@ const BAMBU_PRINTER_MODELS = [
   'H2C', 'H2D', 'H2DPRO', 'H2S',
   // P-Series
   'P1P', 'P1S', 'P2S',
-  // X-Series (professional)
-  'X1', 'X1C', 'X1E'
+  // X-Series (professional, dual-extruder flagship X2D added Apr 2026)
+  'X1', 'X1C', 'X1E', 'X2D'
 ];
 
 // AMS Models - synchronized with ha-bambulab-cards

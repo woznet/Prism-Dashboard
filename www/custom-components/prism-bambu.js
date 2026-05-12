@@ -8,8 +8,8 @@ const BAMBU_PRINTER_MODELS = [
   'H2C', 'H2D', 'H2DPRO', 'H2S',
   // P-Series
   'P1P', 'P1S', 'P2S',
-  // X-Series (professional)
-  'X1', 'X1C', 'X1E'
+  // X-Series (professional, dual-extruder flagship X2D added Apr 2026)
+  'X1', 'X1C', 'X1E', 'X2D'
 ];
 
 // AMS Models - synchronized with ha-bambulab-cards

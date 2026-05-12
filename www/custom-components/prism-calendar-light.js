@@ -133,7 +133,7 @@ class PrismCalendarLightCard extends HTMLElement {
     if (this.config && this.config.entity_1) {
       // Fetch calendar events every 60 seconds or on first load
       const now = Date.now();
-      if (now - this._lastFetch > 60000 || this._events.length === 0) {
+      if (now - this._lastFetch > 60000) {
         this._fetchCalendarEvents();
       } else {
         this.render();
